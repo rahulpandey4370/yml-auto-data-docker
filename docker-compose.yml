@@ -5,7 +5,7 @@ services:
     image: yml-auto-data
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: ./dockerfile
     environment:
       NODE_ENV: production
     ports:
